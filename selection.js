@@ -7,11 +7,9 @@ function selectionSort(arr) {
                 minIndex = j;
             }
         }
-        [arr[i], arr[minIndex]] = [arr[minIndex], arr[i]]; // Troca os elementos
+        if (minIndex !== i) {
+            [arr[i], arr[minIndex]] = [arr[minIndex], arr[i]];
+        }
     }
     return arr;
 }
-
-const numbers = [54, 25, 12, 22, 9];
-
-console.log("Selection Sort:", selectionSort([...numbers]));

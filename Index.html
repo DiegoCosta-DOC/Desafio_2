@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualização de Ordenação</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+    <h1>Algoritmos de Ordenação</h1>
+
+    <input type="text" id="inputArray" placeholder="Digite números separados por vírgula">
+    <button onclick="sortArray()">Ordenar</button>
+
+    <div class="container">
+        <div class="method">
+            <h2>Bubble Sort</h2>
+            <p id="bubbleResult"></p>
+        </div>
+        <div class="method">
+            <h2>Insertion Sort</h2>
+            <p id="insertionResult"></p>
+        </div>
+        <div class="method">
+            <h2>Selection Sort</h2>
+            <p id="selectionResult"></p>
+        </div>
+    </div>
+
+    <script type="text/JavaScript" src="/bubble.js"></script>
+    <script type="text/JavaScript" src="/insertion.js"></script>
+    <script type="text/JavaScript" src="/selection.js"></script>
+    <script type="text/JavaScript" src="/conectar.js"></script>
+</body>
+</html>

@@ -11,7 +11,3 @@ function insertionSort(arr) {
     }
     return arr;
 }
-
-const numbers = [74, 21, 12, 22, 7];
-
-console.log("Insertion Sort:", insertionSort([...numbers]));
